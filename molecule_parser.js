@@ -69,7 +69,6 @@ function isALetter (char) {
     }
     return false;
 }
-
 function checkType (char) {
     if (isALetter(char)) {
         if (char === char.toUpperCase()) return charType.UPER_CASE;
